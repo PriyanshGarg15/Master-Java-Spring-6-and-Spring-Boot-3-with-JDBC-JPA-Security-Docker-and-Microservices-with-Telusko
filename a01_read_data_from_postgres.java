@@ -14,7 +14,7 @@ public class demoJDBC {
         String uname="postgres";
         String pass="0000";
 ;       Class.forName("org.postgresql.Driver");
-        String sql="select * from student";
+        String sql="select * from student";  //read
         Connection con=DriverManager.getConnection(url,uname,pass);
         System.out.println("Connected to PostgreSQL database");
 
